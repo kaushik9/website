@@ -6,11 +6,11 @@ files:
    
 hooks:
   BeforeInstall:
-    -location: /scripts/install-dependencies
+    -location: /install-dependencies
      timeout: 300
      runs: root
      
-    -location: /scripts/startserver
+    -location: /startserver
      timeout: 300
      runs: root
      
