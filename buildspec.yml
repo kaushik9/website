@@ -1,0 +1,21 @@
+version 0.2
+
+phases:
+  install:
+    runtime-vesions:
+      nodejs:10
+    commands:
+      apt-get install -y unzip
+      
+      
+  build:
+    commands:
+      - echo Build Started on `date`
+      - zip hello.zip ./index.html
+      
+ artifacts:
+  type:
+  files:
+    - index.html
+    - images/github3.jpg
+    
