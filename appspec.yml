@@ -9,7 +9,6 @@ hooks:
     - location: /install-dependencies
       timeout: 300
       runas: root
-     
     - location: /startserver
       timeout: 300
       runas: root
