@@ -1,4 +1,5 @@
-version 0.2
+version: 0.2
+
 phases:
   install:
     runtime-vesions:
@@ -12,9 +13,9 @@ phases:
       - echo Build Started on `date`
       - zip sampleproject.zip ./index.html
       
- artifacts:
+artifacts:
   type:
-  files:
-    - index.html
-    - images/github3.jpg
+  files:  
+  - index.html
+  - images/github3.jpg
     
