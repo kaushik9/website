@@ -8,9 +8,9 @@ hooks:
   BeforeInstall:
     -location: /install-dependencies
      timeout: 300
-     runs: root
+     runas: root
      
     -location: /startserver
      timeout: 300
-     runs: root
+     runas: root
      
